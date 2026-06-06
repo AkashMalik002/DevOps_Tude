@@ -1,0 +1,33 @@
+--=========================================
+1)
+mkdir test_dir
+cd test_dir/
+touch sample.txt
+cat sample.txt
+mv sample.txt renamed_sample.txt
+cat renamed_sample.txt
+-------------------------------
+2)
+cat /etc/passwd
+head -5 /etc/passwd
+tail -5 /etc/passwd
+-------------------------------
+3)
+cat /etc/passwd | grep root
+-------------------------------
+4)
+zip -r test_dir.zip test_dir
+mkdir unzipped_dir
+unzip test_dir.zip -d unzipped_dir/
+-------------------------------
+5)
+wget https://www.google.com/
+-------------------------------
+6)
+touch secure.txt
+chmod 444 secure.txt
+-------------------------------
+7)
+export MY_VAR="Hello, Linux!"
+echo $MY_VAR
+--=========================================
